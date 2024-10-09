@@ -23,4 +23,69 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  align-content: center;
 }
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  padding: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  background: rgba(128, 128, 128, 0.202);
+  
+}
+
+.left-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 10px;
+  padding-left: 10px;
+  
+}
+
+.right-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 10px;
+  padding-right: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Centers the image vertically */
+  height: 100vh; /* Takes the full viewport height */
+}
+
+
+
+
+
+
+
+
+
